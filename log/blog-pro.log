@@ -1,0 +1,4 @@
+2021-05-12 22:01:12.060  INFO 7804 --- [main] school.xauat.blog.BlogApplicationTests   : Starting BlogApplicationTests using Java 1.8.0_101 on DESKTOP-73KU8H3 with PID 7804 (started by dell in E:\course\项目部署\blog)
+2021-05-12 22:01:12.097  INFO 7804 --- [main] school.xauat.blog.BlogApplicationTests   : The following profiles are active: pro
+2021-05-12 22:01:22.260  WARN 7804 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-12 22:01:24.183  INFO 7804 --- [main] school.xauat.blog.BlogApplicationTests   : Started BlogApplicationTests in 14.56 seconds (JVM running for 18.948)
