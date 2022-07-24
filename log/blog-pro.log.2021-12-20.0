@@ -1,0 +1,12 @@
+2021-12-15 17:58:26.481  INFO 616201 --- [main] school.xauat.blog.BlogApplicationTests   : Starting BlogApplicationTests using Java 1.8.0_281 on iZ2zea4hx8fcn5po0io4mlZ with PID 616201 (started by root in /data/gitee/blog)
+2021-12-15 17:58:26.490  INFO 616201 --- [main] school.xauat.blog.BlogApplicationTests   : The following profiles are active: pro
+2021-12-15 17:58:34.226  WARN 616201 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-15 17:58:35.850  INFO 616201 --- [main] school.xauat.blog.BlogApplicationTests   : Started BlogApplicationTests in 9.941 seconds (JVM running for 11.522)
+2021-12-15 18:00:59.321  INFO 616328 --- [main] school.xauat.blog.BlogApplicationTests   : Starting BlogApplicationTests using Java 1.8.0_281 on iZ2zea4hx8fcn5po0io4mlZ with PID 616328 (started by root in /data/gitee/blog)
+2021-12-15 18:00:59.322  INFO 616328 --- [main] school.xauat.blog.BlogApplicationTests   : The following profiles are active: pro
+2021-12-15 18:01:06.167  WARN 616328 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-15 18:01:07.567  INFO 616328 --- [main] school.xauat.blog.BlogApplicationTests   : Started BlogApplicationTests in 8.695 seconds (JVM running for 9.709)
+2021-12-15 20:31:18.778  INFO 1744 --- [main] school.xauat.blog.BlogApplicationTests   : Starting BlogApplicationTests using Java 1.8.0_281 on iZ2zea4hx8fcn5po0io4mlZ with PID 1744 (started by root in /data/gitee/blog)
+2021-12-15 20:31:18.780  INFO 1744 --- [main] school.xauat.blog.BlogApplicationTests   : The following profiles are active: pro
+2021-12-15 20:31:24.708  WARN 1744 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-15 20:31:25.778  INFO 1744 --- [main] school.xauat.blog.BlogApplicationTests   : Started BlogApplicationTests in 7.408 seconds (JVM running for 8.648)

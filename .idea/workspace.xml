@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="852d9cd1-763f-48d6-9da1-0d9a74ad30a9" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="blog@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="blog@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="blog@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="blog: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin File" />
+        <option value="HTML File" />
+        <option value="JavaFXApplication" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/work/apache-maven-3.3.9" />
+        <option name="userSettingsFile" value="D:\work\apache-maven-3.3.9\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProjectId" id="1qWWfHyWurlEMQ9JnJGJEAfE1fz" />
+  <component name="ProjectViewState">
+    <option name="abbreviatePackageNames" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="ToolWindowRun.ShowToolbar" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="school.xauat.service.impl" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="school.xauat" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\course\阶段总结\blog\src\main\resources\static\images" />
+      <recent name="E:\course\阶段总结\blog\src\main\resources\templates" />
+      <recent name="E:\course\阶段总结\blog\src\main\resources\static\lib\waypoints" />
+      <recent name="E:\course\阶段总结\blog\src\main\resources" />
+      <recent name="E:\course\阶段总结\blog\src\main\resources\static" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="school.xauat.util" />
+      <recent name="school.xauat.config" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\course\阶段总结\blog\src\main\resources\static" />
+      <recent name="E:\course\阶段总结\blog" />
+      <recent name="E:\course\阶段总结\blog\src\main\resources\i18n" />
+    </key>
+  </component>
+  <component name="RestServicesNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="Found 33 services " type="fcff1e1b:RestServiceStructure$RootNode" />
+        </path>
+        <path>
+          <item name="Found 33 services " type="fcff1e1b:RestServiceStructure$RootNode" />
+          <item name="blog" type="c588b436:RestServiceStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn install" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.BlogApplication">
+    <configuration name="MD5Utils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="school.xauat.util.MD5Utils" />
+      <module name="blog" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="school.xauat.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MarkdownUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="school.xauat.util.MarkdownUtils" />
+      <module name="blog" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="school.xauat.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BlogApplicationTests.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="blog" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="school.xauat.blog.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="school.xauat.blog" />
+      <option name="MAIN_CLASS_NAME" value="school.xauat.blog.BlogApplicationTests" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BlogApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="blog" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="school.xauat.BlogApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.BlogApplicationTests.test" />
+        <item itemvalue="Application.MarkdownUtils" />
+        <item itemvalue="Application.MD5Utils" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="852d9cd1-763f-48d6-9da1-0d9a74ad30a9" name="Default Changelist" comment="" />
+      <created>1617195928042</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1617195928042</updated>
+      <workItem from="1617195931660" duration="23594000" />
+      <workItem from="1617604367249" duration="2332000" />
+      <workItem from="1617695523166" duration="121553000" />
+      <workItem from="1620827836662" duration="308000" />
+      <workItem from="1640017724880" duration="766000" />
+      <workItem from="1640059758083" duration="1016000" />
+      <workItem from="1640073675008" duration="642000" />
+      <workItem from="1640154447564" duration="1458000" />
+      <workItem from="1640700435361" duration="342000" />
+      <workItem from="1641115980177" duration="216000" />
+      <workItem from="1641117835234" duration="1005000" />
+      <workItem from="1641876700667" duration="790000" />
+      <workItem from="1642072870909" duration="818000" />
+      <workItem from="1642241824390" duration="209000" />
+      <workItem from="1642242088955" duration="83000" />
+      <workItem from="1646643270539" duration="624000" />
+      <workItem from="1647853039976" duration="273000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1429" height="447" key="GridCell.Tab.0.bottom" timestamp="1641116197145">
+      <screen x="0" y="0" width="1471" height="864" />
+    </state>
+    <state width="1429" height="447" key="GridCell.Tab.0.bottom/0.0.1471.864@0.0.1471.864" timestamp="1641116197145" />
+    <state width="1429" height="447" key="GridCell.Tab.0.center" timestamp="1641116197144">
+      <screen x="0" y="0" width="1471" height="864" />
+    </state>
+    <state width="1429" height="447" key="GridCell.Tab.0.center/0.0.1471.864@0.0.1471.864" timestamp="1641116197144" />
+    <state width="1429" height="447" key="GridCell.Tab.0.left" timestamp="1641116197144">
+      <screen x="0" y="0" width="1471" height="864" />
+    </state>
+    <state width="1429" height="447" key="GridCell.Tab.0.left/0.0.1471.864@0.0.1471.864" timestamp="1641116197144" />
+    <state width="1429" height="447" key="GridCell.Tab.0.right" timestamp="1641116197144">
+      <screen x="0" y="0" width="1471" height="864" />
+    </state>
+    <state width="1429" height="447" key="GridCell.Tab.0.right/0.0.1471.864@0.0.1471.864" timestamp="1641116197144" />
+    <state width="1429" height="447" key="GridCell.Tab.1.bottom" timestamp="1641116197146">
+      <screen x="0" y="0" width="1471" height="864" />
+    </state>
+    <state width="1429" height="447" key="GridCell.Tab.1.bottom/0.0.1471.864@0.0.1471.864" timestamp="1641116197146" />
+    <state width="1429" height="447" key="GridCell.Tab.1.center" timestamp="1641116197145">
+      <screen x="0" y="0" width="1471" height="864" />
+    </state>
+    <state width="1429" height="447" key="GridCell.Tab.1.center/0.0.1471.864@0.0.1471.864" timestamp="1641116197145" />
+    <state width="1429" height="447" key="GridCell.Tab.1.left" timestamp="1641116197145">
+      <screen x="0" y="0" width="1471" height="864" />
+    </state>
+    <state width="1429" height="447" key="GridCell.Tab.1.left/0.0.1471.864@0.0.1471.864" timestamp="1641116197145" />
+    <state width="1429" height="447" key="GridCell.Tab.1.right" timestamp="1641116197145">
+      <screen x="0" y="0" width="1471" height="864" />
+    </state>
+    <state width="1429" height="447" key="GridCell.Tab.1.right/0.0.1471.864@0.0.1471.864" timestamp="1641116197145" />
+    <state x="393" y="197" width="672" height="677" key="run.anything.popup" timestamp="1641118427307">
+      <screen x="0" y="0" width="1471" height="864" />
+    </state>
+    <state x="393" y="197" width="672" height="677" key="run.anything.popup/0.0.1471.864@0.0.1471.864" timestamp="1641118427307" />
+  </component>
+</project>

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en"  xmlns:th="http://www.thymeleaf.org">
+<head th:fragment="head(title)">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title th:replace="${title}">博客详情</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.css">
+    <link rel="stylesheet" th:href="@{/css/typo.css}">
+    <link rel="stylesheet" th:href="@{/css/animate.css}">
+    <link rel="stylesheet" th:href="@{/lib/prism/prism.css}">
+    <link rel="stylesheet" th:href="@{/lib/tocbot/tocbot.css}">
+    <link rel="stylesheet" th:href="@{/css/me.css}">
+</head>
+<body>
+
+
+<!--导航-->
+<nav th:fragment="menu(n)" class="ui inverted attached segment m-padded-tb-mini m-shadow-small" >
+    <div class="ui container">
+        <div class="ui inverted secondary stackable menu">
+            <h2 class="ui teal header item">Blog</h2>
+            <a href="#"   class="m-item item m-mobile-hide" th:href="@{/index}"     th:classappend="${n==1} ? 'active'"><i class=" home icon"></i>首页</a>
+            <a href="#"   class="m-item item m-mobile-hide" th:href="@{/types/-1}"  th:classappend="${n==2} ? 'active'"><i class=" idea icon"></i>分类</a>
+            <a href="#"   class="m-item item m-mobile-hide" th:href="@{/tags/-1}"   th:classappend="${n==3} ? 'active'"><i class=" tags icon"></i>标签</a>
+            <a href="#"   class="m-item item m-mobile-hide" th:href="@{/archives}"  th:classappend="${n==4} ? 'active'"><i class=" clone icon"></i>归档</a>
+            <a href="#"   class="m-item item m-mobile-hide" th:href="@{/about}"     th:classappend="${n==5} ? 'active'"><i class=" info icon"></i>关于我</a>
+            <div class="right m-item item m-mobile-hide">
+                <form name="search" th:method="post" action="#" th:action="@{/search}">
+                    <div class="ui icon transparent input m-margin-tb-tiny">
+                        <input type="text" name="query" th:value="${query}" placeholder="Search....">
+                        <i onclick="document.forms('search').submit()" class="search link icon"></i>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <a href="#" class="ui menu toggle black icon button m-right-top m-mobile-show">
+        <i class="sidebar icon"></i>
+    </a>
+</nav>
+
+
+<!--底部footer-->
+<footer th:fragment="footer" class="ui inverted vertical segment m-padded-tb-massive">
+    <div class="ui center aligned container">
+        <div class="ui inverted divided stackable grid">
+            <div class="four wide column">
+                <div class="ui inverted link list">
+                    <div class="item">
+                        <img th:src="@{/images/wechat.jpg}" class="ui rounded image" alt="" style="width: 110px">
+                    </div>
+                </div>
+            </div>
+            <div class="four wide column">
+                <h4 class="ui inverted header m-text-thin m-text-spaced " >最新博客</h4>
+                <div id="newBlog-container">
+                    <div class="ui inverted link list" th:fragment="newBlogList" >
+                        <a href="#" th:href="@{/blog/{id}(id=${blog.id})}" target="_blank" th:each="blog : ${newBlogs}" class="item m-text-thin" th:text="${blog.title}" >用户故事（User Story）</a>
+                        <!--/*-->
+                        <a href="#" class="item m-text-thin">用户故事（User Story）</a>
+                        <a href="#" class="item m-text-thin">用户故事（User Story）</a>
+                        <!--*/-->
+                    </div>
+                </div>
+            </div>
+            <div class="four wide column">
+                <h4 class="ui inverted header m-text-thin m-text-spaced ">联系我</h4>
+                <div class="ui inverted link list">
+                    <a href="#" class="item m-text-thin">Email：3020000629@163.com</a>
+                    <a href="#" class="item m-text-thin">QQ：834187150</a>
+                </div>
+            </div>
+            <div class="four wide column" th:fragment="blogMessage">
+                <div id="blogMessage-container">
+                    <h4 class="ui inverted header m-text-thin m-text-spaced ">博客信息</h4>
+                    <div class="m-text-thin" style="text-align: left;margin-left: 75px;">
+                        文章总数： <h2 class="ui orange header m-inline-block m-margin-top-null" style="font-size:medium;" th:text="${blogCount}"> 14 </h2> 篇
+                    </div>
+                    <div class="m-text-thin" style="text-align: left;margin-left: 75px">
+                        访问总数： <h2 class="ui orange header m-inline-block m-margin-top-null" style="font-size:medium;"> 14 </h2> 次
+                    </div>
+                    <div class="m-text-thin" style="text-align: left;margin-left: 75px">
+                        留言总数： <h2 class="ui orange header m-inline-block m-margin-top-null" style="font-size:medium;"> 14 </h2> 条
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ui inverted section divider"></div>
+        <div style="color: #F08047;margin-top: -18px" class="ui inverted m-text-thin m-text-spaced">我的博客已营业：<span id="htmer_time" class="item m-text-thin"></span> (*๓´╰╯`๓)</div>
+        <p class="m-text-thin m-text-spaced m-opacity-tiny">Copyright © 2021 - 2022 dunk_code Designed by dunk_code</p>
+    </div>
+
+</footer>
+
+
+<th:block th:fragment="script">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.2/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/jquery.scrollto@2.1.2/jquery.scrollTo.min.js"></script>
+
+    <script src="../static/lib/prism/prism.js"                    th:src="@{/lib/prism/prism.js}" ></script>
+    <script src="../static/lib/tocbot/tocbot.min.js"              th:src="@{/lib/tocbot/tocbot.min.js}" ></script>
+    <script src="../static/lib/qrcode/qrcode.min.js"              th:src="@{/lib/qrcode/qrcode.min.js}" ></script>
+    <script src="../static/lib/waypoints/jquery.waypoints.min.js" th:src="@{/lib/waypoints/jquery.waypoints.min.js}" ></script>
+
+    <script>
+        $('#newBlog-container').load(/*[[@{/footer/newBlog}]]*/"/footer/newBlog");
+        $('#blogMessage-container').load(/*[[@{/footer/blogMessage}]]*/"/footer/blogMessage");
+        // 运行时间统计
+        function secondToDate(second) {
+            if (!second) {
+                return 0;
+            }
+            var time = new Array(0, 0, 0, 0, 0);
+            if (second >= 365 * 24 * 3600) {
+                time[0] = parseInt(second / (365 * 24 * 3600));
+                second %= 365 * 24 * 3600;
+            }
+            if (second >= 24 * 3600) {
+                time[1] = parseInt(second / (24 * 3600));
+                second %= 24 * 3600;
+            }
+            if (second >= 3600) {
+                time[2] = parseInt(second / 3600);
+                second %= 3600;
+            }
+            if (second >= 60) {
+                time[3] = parseInt(second / 60);
+                second %= 60;
+            }
+            if (second > 0) {
+                time[4] = second;
+            }
+            return time;
+        }
+        function setTime() {
+            /*此处为网站的创建时间*/
+            var create_time = Math.round(new Date(Date.UTC(2021, 03, 10 , 13, 15, 15)).getTime() / 1000);
+            var timestamp = Math.round((new Date().getTime() + 8 * 60 * 60 * 1000) / 1000);
+            currentTime = secondToDate((timestamp - create_time));
+            currentTimeHtml = currentTime[0] + '年' + currentTime[1] + '天'
+                + currentTime[2] + '时' + currentTime[3] + '分' + currentTime[4]
+                + '秒';
+            document.getElementById("htmer_time").innerHTML = currentTimeHtml;
+        }
+        setInterval(setTime, 1000);
+    </script>
+</th:block>
+</body>
+</html>

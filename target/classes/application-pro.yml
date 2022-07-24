@@ -1,0 +1,29 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://8.140.116.125:3306/blog?useUnicode=true&characterEncoding=utf-8
+    username: root
+    password: 123456
+  jpa:
+    hibernate:
+      ddl-auto: none
+    #控制台显示sql
+    show-sql: true
+    redis:
+      host: 8.140.116.125
+      port: 6379
+      database: 0
+
+logging:
+  level:
+    root: warn
+    school.xauat: info
+#生成log文件
+  file:
+    name: log/blog-pro.log
+#生产环境端口号
+server:
+  port: 8080
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
