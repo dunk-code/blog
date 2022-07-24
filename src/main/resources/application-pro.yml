@@ -23,7 +23,7 @@ logging:
     name: log/blog-pro.log
 #生产环境端口号
 server:
-  port: 80  
+  port: 80
 mybatis:
   configuration:
     map-underscore-to-camel-case: true
